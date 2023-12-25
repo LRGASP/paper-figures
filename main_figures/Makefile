@@ -5,6 +5,8 @@ inpdfs = Figures_Overview.pdf \
        Figures_challenge3.pdf
 outpdf = ../Figures.pdf
 
+all: ${outpdf}
+
 ${outpdf}: ${inpdfs}
 	pdfunite ${inpdfs} $@.tmp
 	mv -f $@.tmp $@

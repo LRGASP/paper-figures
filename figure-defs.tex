@@ -1,0 +1,58 @@
+% https://www.nature.com/nmeth/submission-guidelines/aip-and-formatting
+% Figure panels should be prepared at a minimum resolution of 300 dpi and
+% saved at a maximum width of 180 mm (7").
+% Use a 5–7 pt san serif font for standard text labelling and Symbol font for
+% Greek characters.
+
+\usepackage[scaled]{helvet} % Use Helvetica, a sans-serif font
+\usepackage{graphicx}
+\usepackage[top=0.75in, bottom=0.75in, left=0.75in, right=0.75in]{geometry}
+\usepackage{caption}
+\usepackage{xcolor}
+\usepackage{underscore}
+
+% Set the default font to sans-serif
+\renewcommand{\familydefault}{\sfdefault}
+
+% Customize caption settings
+\captionsetup{
+  font={sf},
+  textfont={},
+  labelformat=empty,
+  labelsep=none
+}
+\renewcommand\captionfont{\fontsize{8pt}{10pt}\selectfont}
+
+% with size: \inclimgsz{pdf}{width}{label}{caption}
+\newcommand{\inclimgsz}[4]{
+\begin{figure}
+  \centering
+  \includegraphics[width=#2, keepaspectratio]{#1}
+  \caption{\textbf{#3} {#4}}
+\end{figure}
+\clearpage
+\newpage
+}
+
+% basic: \inclimg{pdf}{label}{caption}
+\newcommand{\inclimg}[3]{\inclimgsz{#1}{180mm}{#2}{#3}}
+
+% smaller: \inclimgsm{pdf}{label}{caption}
+\newcommand{\inclimgsm}[3]{\inclimgsz{#1}{150mm}{#2}{#3}}
+
+% \inclcrop{pdf}{bottom trim}{label}{caption}
+\newcommand{\inclcrop}[4]{
+\begin{figure}
+  \centering
+  \includegraphics[width=180mm, trim={0 #2 0 0}, clip, keepaspectratio]{#1}
+  \caption{\textbf{#3} {#4}}
+\end{figure}
+\clearpage
+\newpage
+}
+
+% generate images: \inclgen{pdf}{label}{caption}
+\newcommand{\inclgen}[3]{\inclcrop{#1}{25pt}{#2}{#3}}
+
+% \warning{text}
+\newcommand{\warning}[1]{\textcolor{red}{\textbf{#1}}}

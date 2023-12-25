@@ -1,0 +1,381 @@
+\documentclass{article}
+
+\input{../figure-defs.tex}
+\begin{document}
+
+%%%%
+%% challenge 1
+%%%%
+%KEEP!!
+\inclimg{challenge1_src/images/summary-values.pdf}{Extended Data Fig. 0.5.}{
+  \warning{Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.}
+}
+\inclimg{challenge1_src/images/read-usage-by-tool.pdf}{Extended Data Fig. 1.}{
+  Read usage by analysis tool. a-c) The Percentage of Reads
+  Used (PRU) is calculated as the fraction between the number of reads in
+  transcript models provided in the submission of each pipelines and the
+  number of available reads in the dataset. Values > 100 indicate the same
+  read is assigned to more than one transcript model. Values < 100 indicate
+  that not all available reads were used to predict transcript models. d)
+  Distribution of the number of transcripts assigned to each long-read in the
+  submitted reads2transcripts files. Values are aggregated for all submissions
+  of the same tool.
+}
+\inclimg{challenge1_src/images/sqanti3-eval-h1-mix.pdf}{Extended Data Fig. 2.}{
+  SQANTI3 evaluation of LRGASP submissions of the H1-mix dataset. Labels
+  correspond to analysis tools and the color code indicates the combination of
+  library preparation and sequencing platform. a) Number of gene and
+  transcript detections. b) Number of Full Splice Match and Incomplete Splice
+  Match transcripts. c) Number of Novel in Catalogue and Novel Not in
+  Catalogue transcripts. d) Number of known and novel transcripts with full
+  support at junctions and end positions. e) Percentage of transcripts with
+  5´end support. f) Percentage of transcripts with 3´end support. g)
+  Percentage of canonical splice junctions (SJ) and short-reads support at SJ.
+  Ba: Bambu, FM: Flames, FL: FLAIR, IQ: IsoQuant, IT: IsoTools, IB: Iso_IB,
+  Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra, ST: StringTie2.
+}
+\inclimg{challenge1_src/images/sqanti3-eval-es.pdf}{Extended Data Fig. 3.}{
+  SQANTI3 evaluation of LRGASP submissions of the mouse ES dataset. Labels
+  correspond to analysis tools and the color code indicates the combination of
+  library preparation and sequencing platform. a) Number of gene and
+  transcript detections. b) Number of Full Splice Match and Incomplete Splice
+  Match transcripts. c) Number of Novel in Catalogue and Novel Not in
+  Catalogue transcripts. d) Number of known and novel transcripts with full
+  support at junctions and end positions. e) Percentage of transcripts with
+  5´end support. f) Percentage of transcripts with 3´end support. g)
+  Percentage of canonical splice junctions (SJ) and short-reads support at SJ.
+  Ba: Bambu, FM: Flames, FL: FLAIR, IQ: IsoQuant, IT: IsoTools, IB: Iso_IB,
+  Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra, ST: StringTie2.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._4_seq-depth-by-detected-features.pdf}{Extended Data Fig. 4.}{
+  Relationship between sequencing depth and number of detected features. a-c) Transcripts, d-f)
+  Genes.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._5_read-length-by-detected-features.pdf}{Extended Data Fig. 5.}{
+  Relationship between read length and number of detected features. a-c) Transcripts, d-f) Genes.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._6_read-qual-by-detected-features.pdf}{Extended Data Fig. 6.}{
+  Relationship between read quality and number of detected features. a-c) Transcripts, d-f) Genes.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._7_deviance-dectected-features-by-expr-factors.pdf}{Extended Data Fig. 7.}{
+  Median Absolute Deviance of detected features by experimental factor. a-c) Transcripts, d-f) Genes.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._8_detected-trans-gene-by-tool.pdf}{Extended Data Fig. 8.}{
+  Number of detected transcripts and genes per analysis tool. a-c) Transcripts, d-f) Genes.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._9_detected-genes-by-plat-prep.pdf}{Extended Data Fig. 9.}{
+  Number of detected genes per Platform and Library Preparation. a-c) Platform, d-f) Library
+  Preparation.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._10_detected-genes-by-plat-prep.pdf}{Extended Data Fig. 10.}{
+  Number of detected transcripts per Platform and Library Preparation.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._11_detected-trans-by-cDNA-CapTrap.pdf}{Extended Data Fig. 11.}{
+  Number of
+  detected transcripts in cDNA and CapTrap libraries. a-c) cDNA, d-f) CapTrap.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._12_detected-trans-by-PacBio-ONT.pdf}{Extended Data Fig. 12.}{
+  Number of
+  detected transcripts in PacBio and Nanopore platforms. a-c) PacBio, d-f) Nanopore.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._13_detected-genes-by-PacBio-ONT.pdf}{Extended Data Fig. 13.}{
+  Number of
+  detected genes in cDNA and CapTrap libraries. a-c) cDNA, d-f) CapTrap.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._14_detected-genes-by-PacBio-ONT.pdf}{Extended Data Fig. 14.}{
+  Number of
+  detected genes in PacBio and Nanopore platforms. a-c) PacBio, d-f) Nanopore.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._15_FSM-ISM-by-plat-lib.pdf}{Extended Data Fig. 15.}{
+  Number of FSM
+  and ISM by sequencing platform and library preparation. a-c) FSM, d-f) ISM.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._16_NIC-NCC-by-plat-prep.pdf}{Extended Data Fig. 16.}{
+  Number of NIC
+  and NNC by sequencing platform and library preparation. a-c) NIC, d-f) NNC.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._17_FSM-by-lib-tool.pdf}{Extended Data Fig. 17.}{
+  Number of FSM
+  transcripts by library preparation and analysis tool. a-c) cDNA. d-f) CapTrap.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._18_FSM-by-plat-tool.pdf}{Extended Data Fig. 18.}{
+  Number of FSM
+  transcripts by sequencing platform and analysis tool. a-c) PacBio, d-f) Nanopore.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._19_ISM-by-prep-tool.pdf}{Extended Data Fig. 19.}{
+  Number of ISM
+  transcripts by library preparation and analysis tool. a-c) cDNA. d-f) CapTrap.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._20_ISM-by-plat-tool.pdf}{Extended Data Fig. 20.}{
+  Number of ISM
+  transcripts by sequencing platform and analysis tool. a-c) Intergenic. d-f) GenicGenomic.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._21_genic-by-plat-prep.pdf}{Extended Data Fig. 21.}{
+  Number of
+  Intergenic and GenicGenomic by sequencing platform and library preparation. a-c) Intergenic,
+  d-f) GenicGenomic.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._22_fusion-anti-by-plat-prep.pdf}{Extended Data Fig. 22.}{
+  Number of Fusion and Antisense by sequencing platform and library preparation. a-c)
+  Fusion. d-f) Antisense.
+}
+%KEEP!!
+\inclcrop{challenge1_src/generated/Extended_Fig._23_TMs-coverage-by-tool.pdf}{38pt}{Extended Data Fig. 23.}{
+  Percentage of transcript models (TM) with different ranges of sequence
+  coverage by long reads. a) WTC11. c) H1-mix. c) Mouse ES. Ba: Bambu, FM: FLAMES, FL: FLAIR,
+  IQ: IsoQuant, IT: IsoTools, IB: Iso_IB, Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp:
+  Spectra, ST: StringTie2.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._24_biotype-by-tool.pdf}{Extended Data Fig. 24.}{
+  Distribution of Biotypes across pipelines. a) WTC11, c) H1-mix, c) Mouse ES.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._25_biotype-per-pipeline.pdf}{Extended Data Fig. 25.}{
+  Biotypes per
+  pipeline. a) WTC11, c) H1-mix, c) Mouse ES.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._26_cnt_squanti_dist-UIC.pdf}{Extended Data Fig. 26.}{
+  Number and
+  SQANTI category distribution of Unique Intron Chain (UIC) consistently detected by an
+  increasing number of submissions. a) H1-mix sample, b) Mouse ES sample.
+}
+\inclimg{challenge1_src/images/detection-overlap-wtc11.pdf}{Extended Data Fig. 27.}{
+  Pair-wise overlap in the detection of features between pipelines; WTC11
+  sample. Each value represents the feature intersection between column and
+  row pipelines divided by the number of detections in the row pipeline. a)
+  Genes, b) Splice junctions, c) Unique Intron Chains (UIC), c) Top UIC
+  accounting for at least 50\% of the gene expression.
+  \warning{UPDATE: Image is fuzzy}
+}
+\inclimg{challenge1_src/images/detection-overlap-h1-mix.pdf}{Extended Data Fig. 28.}{
+  Pair-wise overlap in the detection of features between pipelines; H1-mix
+  sample. Each value represents the feature intersection between column and
+  row pipelines divided by the number of detections in the row pipeline. a)
+  Genes, b) Splice junctions, c) Unique Intron Chains (UIC), c) Top UIC
+  accounting for at least 50\% of the gene expression.
+  \warning{UPDATE: Image is fuzzy}
+}
+\inclimg{challenge1_src/images/detection-overlap-es.pdf}{Extended Data Fig. 29.}{
+  Pair-wise overlap in the detection of features between pipelines; ES mouse
+  sample. Each value represents the feature intersection between column and
+  row pipelines divided by the number of detections in the row pipeline. a)
+  Genes, b) Splice junctions, c) Unique Intron Chains (UIC), c) Top UIC
+  accounting for at least 50\% of the gene expression.
+  \warning{UPDATE: Image is fuzzy}
+}
+\inclgen{challenge1_src/generated/Extended_Fig._30_UIC-by-tool-PacBio_cDNA.pdf}{Extended Data Fig. 30.}{
+  Number of UIC detected by a tool and shared with an increasing number of other tools,
+  processing PacBio_cDNA data. a) WTC11, c) H1-mix, c) Mouse ES.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._31_UIC-by-tool-PacBio_CapTrap.pdf}{Extended Data Fig. 31.}{
+  Number of UIC detected by a tool and shared with an increasing number of other tools,
+  processing PacBio_CapTrap data. a) WTC11, c) H1-mix, c) Mouse ES.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._32_UIC-by-tool-ONT_cDNA.pdf}{Extended Data Fig. 32.}{
+  Number of UIC
+  detected by a tool and shared with an increasing number of other tools, processing
+  ONT_cDNA data. a) WTC11, c) H1-mix, c) Mouse ES.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._33_UIC-by-tool-ONT_CapTrap.pdf}{Extended Data Fig. 33.}{
+  Number of UIC
+  detected by a tool and shared with an increasing number of other tools, processing
+  ONT_CapTrap data. a) WTC11, c) H1-mix, c) Mouse ES.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._34_UIC-by-tool-ONT_R2C2.pdf}{Extended Data Fig. 34.}{
+  Number of UIC
+  detected by a tool and shared with an increasing number of other tools, processing ONT_R2C2
+  data. a) WTC11, c) H1-mix, c) Mouse ES
+}
+\inclgen{challenge1_src/generated/Extended_Fig._35_UIC-by-tool-ONT_dRNA.pdf}{Extended Data Fig. 35.}{
+  Number of UIC
+  detected by a tool and shared with an increasing number of other tools, processing ONT_dRNA
+  data. a) WTC11, c) H1-mix, c) Mouse ES
+}
+\inclgen{challenge1_src/generated/Extended_Fig._36_UIC-by-tool-sample.pdf}{Extended Data Fig. 36.}{
+  Number of UIC
+  consistently detected by a tool across samples. a) WTC11, c) H1-mix, c) Mouse ES
+}
+\inclimg{challenge1_src/images/frequent-uic-characterization.pdf}{Extended Data Fig. 37.}{
+  Characterization of frequently detected UICs (FDU).  a,c,e) Structural
+  category distribution of FDU. The table indicates the fold enrichment of
+  each structural category within the frequently detected transcripts respect
+  to their global count. b,d,f) Tools identifying FDU. The graph shows the
+  enrichment in the number FDU found by a tool with respect to their global
+  number of reported transcripts. The table reports the total number of FDU
+  detected by the tool.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._38_trans-prop-by-prep.pdf}{Extended Data Fig. 38.}{
+  Properties of
+  detected transcripts by library preparation. a,d,g) Length distribution. b,e,h) Exon number
+  distribution. c,f,i) Counts per million
+}
+\inclgen{challenge1_src/generated/Extended_Fig._39_trans-prop-by-plat.pdf}{Extended Data Fig. 39.}{
+  Properties of
+  detected transcripts by platform. a,d,g) Length distribution. b,e,h) Exon number
+  distribution. c,f,i) Counts per million
+}
+\inclgen{challenge1_src/generated/Extended_Fig._40_trans-by-protocol.pdf}{Extended Data Fig. 40.}{
+  Properties of
+  detected transcripts by experimental protocol. a,d,g) Length distribution. b,e,h) Exon number
+  distribution. c,f,i) Counts per million
+}
+\inclgen{challenge1_src/generated/Extended_Fig._41_trans-len-by-tool.pdf}{Extended Data Fig. 41.}{
+  Distribution of
+  transcript length by analysis tool.
+}
+%KEEP!!
+\inclimg{challenge1_src/images/sirv-cover-cDNA_PacBio.pdf}{Extended Data Fig. 42a.}{
+  Positional coverage of SIRV transcript sequences by long reads
+  in the cDNA_PacBio sample.
+}
+\inclimg{challenge1_src/images/sirv-cover-CapTrap_PacBio.pdf}{Extended Data Fig. 42b.}{
+  Positional coverage of SIRV transcript sequences by long reads
+  in the CapTrap_PacBio.
+}
+%KEEP!!
+\inclimg{challenge1_src/images/sirv-cover-cDNA_ONT.pdf}{Extended Data Fig. 42c.}{
+  Positional coverage of SIRV transcript sequences by long reads
+  in the cDNA_ONT sample.
+}
+\inclimg{challenge1_src/images/sirv-cover-CapTrap_ONT.pdf}{Extended Data Fig. 42d.}{
+  Positional coverage of SIRV transcript sequences by long reads
+  in the CapTrap_ONT.
+}
+\inclimg{challenge1_src/images/sirv-cover-R2C2_ONT.pdf}{Extended Data Fig. 42e.}{
+  Positional coverage of SIRV transcript sequences by long reads
+  in the R2C2_ONT sample.
+}
+\inclimg{challenge1_src/images/sirv-cover-dRNA_ONT.pdf}{Extended Data Fig. 42f.}{
+  Positional coverage of SIRV transcript sequences by long reads
+  in the dRNA_ONT sample.
+}
+\inclcrop{challenge1_src/generated/Extended_Fig._43_metrics-mouse-simul.pdf}{68pt}{Extended Data Fig. 43.}{
+  Performance
+  metrics on mouse simulated data. Sen_kn: sensitivity known transcripts, Sen_kn > 5TMP:
+  sensitivity known transcripts with expression > 5 TPM, Pre_kn: precision known transcripts,
+  Sen_no: sensitivity novel transcripts, Pre_no: precision novel transcripts, 1/Red: inverse of
+  redundancy.}
+\inclgen{challenge1_src/generated/Extended_Fig._44_trans-cover-real-simul.pdf}{Extended Data Fig. 44.}{
+  Comparison of long-read transcript coverage between real and simulated datasets.
+}
+%KEEP!!
+\inclcrop{challenge1_src/generated/Extended_Fig._45_gencode-manual-props-wtc11.pdf}{38pt}{Extended Data Fig. 45.}{
+  Properties of
+  GENCODE manually annotated loci for WTC11 sample.a) Distributon of gene expression. b)
+  Distribution of SQANTI categories. c) Intersection of Unique Intron Chains (UIC) among
+  experimental protocols.
+}
+%KEEP!!
+\inclcrop{challenge1_src/generated/Extended_Fig._46_gencode-manual-props-es.pdf}{38pt}{Extended Data Fig. 46.}{
+  Properties of GENCODE manually annotated loci for mouse ES sample.a)
+  Distributon of gene expression. b) Distribution of SQANTI categories. c) Intersection of
+  Unique Intron Chains (UIC) among experimental protocols.
+}
+\inclcrop{challenge1_src/generated/Extended_Fig._47_pipeline-by-gencode-manual.pdf}{38pt}{Extended Data Fig. 47.}{
+  Performance metrics of LRGASP pipelines evaluate against GENCODE manual annotation of mouse
+  ES sample. Ba: Bambu, FM: Flames, FR: FLAIR, IQ: IsoQuant, IT: IsoTools, IB: Iso_IB, Ly:
+  LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra, ST: StringTie2.
+}
+\inclcrop{challenge1_src/generated/Extended_Fig._48_uic-gencode-manual-by-tool.pdf}{38pt}{Extended Data Fig. 48.}{
+  Detection of Unique Intron Chains (UIC) at GENCODE manual annotation loci. Ba: Bambu, FM:
+  Flames, FL: FLAIR, IQ: IsoQuant, IT: IsoTools, IB: Iso_IB, Ly: LyRic, Ma: Mandalorion, TL:
+  TALON-LAPA, Sp: Spectra, ST: StringTie2.
+}
+\inclcrop{challenge1_src/generated/Extended_Fig._49_gencode-manual-by-tool-two-datasets.pdf}{38pt}{Extended Data Fig. 49.}{
+  Performance on GENCODE manually curated data. Curated transcripts selected to be present in
+  at least two experimental datasets. Ba: Bambu, FM: Flames, FL: FLAIR, IQ: IsoQuant, IT:
+  IsoTools, IB: Iso_IB, Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra, ST:
+  StringTie2.
+}
+\inclcrop{challenge1_src/generated/Extended_Fig._50_gencode-manual-by-tool-three-reads.pdf}{38pt}{Extended Data Fig. 50.}{
+  Performance on GENCODE manually curated data. The ground truth is the set of manually
+  annotated transcripts with more than two reads. Ba: Bambu, FM: Flames, FL: FLAIR, IQ:
+  IsoQuant, IT: IsoTools, IB: Iso_IB, Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra,
+  ST: StringTie2.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._51_gencode-manual-by-prep.pdf}{Extended Data Fig. 51.}{
+ Performance on GENCODE manually curated data by Library Preparation.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._52_gencode-manual-by-plat.pdf}{Extended Data Fig. 52.}{
+  Performance on GENCODE manually curated data by Platform.
+}
+%%%%
+%% challenge 2
+%%%%
+\inclimg{challenge2_src/fig_rador_plot.pdf}{Extended Data Fig. 1_overall_Radar_plot.}{
+  Radar plot of overall evaluation results of eight quantification tools with
+  seven protocols-platforms on four data scenarios: real data with multiple
+  replicates, cell mixing experiment, SIRV-set 4 data and simulation data. To
+  display the evaluation results more effectively, we normalized all metrics
+  to 0-1 range: 0 corresponds to the worst performance and 1 corresponds to
+  the best performance.
+}
+\inclimg{challenge2_src/fig_ranking_on_six_protocols_and_platforms.pdf}{Extended Data Fig. 2_Ranking_results.}{
+  Top 3 performance on quantification tools under six different
+  protocols-platforms for each metric. Here, quantification tools showcase
+  scores under six different protocols-platforms across various evaluation
+  metrics, with the top 3 performers highlighted for each metric. Blank spaces
+  denote instances where the tool or protocols-platforms did not have
+  participants submitting the corresponding quantitative results.
+}
+%%%%
+%% challenge 3
+%%%%
+\inclimg{challenge3_src/Extended_Fig._63.pdf}{Extended Data Fig. 63.}{
+  Manatee genome assembly statistics. a Nanopore reads were used to obtain a
+  draft genome of the Floridian manatee with Flye. The resulting assembly was
+  polished with existing Illumina reads using Pilon. b BUSCO completeness.
+}
+\inclimg{challenge3_src/Extended_Fig._64.pdf}{Extended Data Fig. 64.}{
+  Mapping rate of transcript detected by Challenge 3 submissions.
+}
+\inclimg{challenge3_src/Extended_Fig._65.pdf}{Extended Data Fig. 65.}{
+  SQANTI category classification of transcript models detected by the same
+  tools in Challenge 1 and Challenge 1 predictions used the reference
+  annotation and Challenge 3 predictions did not. Ba = Bambu, IQ =
+  StringTie2/IsoQuant.
+}
+\inclimg{challenge3_src/Extended_Fig._66.pdf}{Extended Data Fig. 66.}{
+  Coding potential of transcripts detected by Challenge 3 submissions.
+}
+\inclimg{challenge3_src/Extended_Fig._67.pdf}{Extended Data Fig. 67.}{
+  SQANTI3 analysis of SIRV reads in manatee samples. a) SQANTI3 categories for
+  reads mapping to SIRVs in cDNA-PacBio and cDNA-ONT replicates. b) Number of
+  SIRV transcripts with at least one Reference Match (RM) read in cDNA-PacBio
+  and cDNA-ONT replicates.
+}
+%%%%
+%% validation
+%%%%
+\inclimg{validation_src/Extended_Data_Fig68_validation_by_supportive_reads.pdf}{Extended Data Fig. 68.}{
+  Fraction of validated WTC-11 transcripts as a function of the total numbers
+  of long reads that were observed across the 21 library preparations (e.g.,
+  PacBio cDNA, ONT cDNA, PacBio CapTrap).
+}
+\inclimg{validation_src/Extended_Data_Fig69_transcript_lengths_by_validation_status.pdf}{Extended Data Fig. 69.}{
+  The distribution of lengths corresponding to the target transcript isoform
+  across the entire validation experiment (including GENCODE, Platform, and
+  Consistency groups), broken down by their validation status.
+}
+\inclimg{validation_src/Extended_Figure_70.pdf}{Extended Data Fig. 70.}{
+  PCR validation results for manatee isoforms for seven target genes (data
+  shown in Figure 5l) broken down by the platform (ONT or PacBio) underlying
+  the pipelines that led to the identification of the isoform.
+}
+\inclimg{validation_src/Extended_Figure_71.pdf}{Extended Data Fig. 71.}{
+  Validation of ALG6 U12 Intron with WTC11 Reads. In panel (a), a novel
+  transcript model, NCC_39352 (blue arrow), appears to corroborate the exon
+  within the ALG6 GENCODE annotation. The mapped amplicon in the control
+  junction tracks provides evidence of the preceding intron. The green arrow
+  indicates the ONT and PacBio read alignment coverage over the exon, but the
+  junction tracks shows a lack of support for the splice junction at the
+  exon's 5' end. In panel (b), GENCODE's annotation of a rare U12 GT-AT intron
+  (purple arrow), which is unsupported by minimap2. Instead, minimap2 forces a
+  GT-AG intron by reporting a six-base deletion in the reference genome (red
+  arrow). As all pipelines relied on minimap2, correct annotation of this
+  transcript was unattainable, illustrating the challenges difficult-to-align
+  regions can pose to annotation with long- read transcripts.
+}
+\end{document}

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" locus="chr3:125272077-125314410" nextAutoscaleGroup="17" version="8">
+    <Resources>
+        <Resource path="https://hgwdev.gi.ucsc.edu/~markd/lrgasp/experimental-eval/hub/hg38/amplicons.bb" type="bb"/>
+        <Resource path="https://hgwdev.gi.ucsc.edu/~markd/lrgasp/experimental-eval/hub/hg38/ont-rna-wtc11-genome.bam" type="bam"/>
+    </Resources>
+    <Panel height="2105" name="Panel1677485818588" width="881">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" height="67" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="Gene" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;396.0;255,255,255;0,0,178" displayMode="EXPANDED" fontSize="10" groupByStrand="false" height="67" id="hg38_genes" name="Gene" visible="true"/>
+    </Panel>
+    <Panel height="75" name="FeaturePanel" width="881">
+        <Track attributeKey="amplicons.bb" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;5.297152042388916;255,255,255;0,0,178" displayMode="EXPANDED" featureVisibilityWindow="39312000" fontSize="10" groupByStrand="false" id="https://hgwdev.gi.ucsc.edu/~markd/lrgasp/experimental-eval/hub/hg38/amplicons.bb" name="amplicons.bb" visible="true"/>
+    </Panel>
+    <Panel height="67" name="Panel1675901522660" width="881">
+        <Track _color="102,255,102" attributeKey="ont-rna-wtc11-genome.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" height="67" id="https://hgwdev.gi.ucsc.edu/~markd/lrgasp/experimental-eval/hub/hg38/ont-rna-wtc11-genome.bam_coverage" name="ont-rna-wtc11-genome.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="17254.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="8376" name="Panel1685511124140" width="881">
+        <Track attributeKey="ont-rna-wtc11-genome.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="RNA" fontSize="10" height="67" id="https://hgwdev.gi.ucsc.edu/~markd/lrgasp/experimental-eval/hub/hg38/ont-rna-wtc11-genome.bam" name="ont-rna-wtc11-genome.bam" visible="true">
+            <RenderOptions colorOption="READ_STRAND" sortOption="STRAND"/>
+        </Track>
+    </Panel>
+    <PanelLayout dividerFractions="0.01675977653631285,0.15363128491620112,0.33519553072625696,0.4748603351955307"/>
+    <Regions>
+        <Region chromosome="chr1" description="HES2+B" end="6419324" start="6413087"/>
+        <Region chromosome="chr1" description="HES2+A" end="6419897" start="6413112"/>
+        <Region chromosome="chr1" description="ENO1+1" end="8871971" start="8862989"/>
+        <Region chromosome="chr1" description="EFHD2+1" end="15428760" start="15409973"/>
+        <Region chromosome="chr1" description="IFFO2+D" end="18905985" start="18905296"/>
+        <Region chromosome="chr1" description="IFFO2+B" end="18928128" start="18908538"/>
+        <Region chromosome="chr1" description="IFFO2+A" end="18955815" start="18908538"/>
+        <Region chromosome="chr1" description="IFFO2+C" end="19006155" start="18916913"/>
+        <Region chromosome="chr1" description="ID3+1" end="23559143" start="23558246"/>
+        <Region chromosome="chr1" description="RCAN3+1" end="24533240" start="24502992"/>
+        <Region chromosome="chr1" description="NUDC+1" end="26943057" start="26934270"/>
+        <Region chromosome="chr1" description="GPR3+A" end="27394189" start="27392645"/>
+        <Region chromosome="chr1" description="GPR3+B" end="27393990" start="27392822"/>
+        <Region chromosome="chr1" description="GPR3+C" end="27395687" start="27395191"/>
+        <Region chromosome="chr1" description="SNHG3+1" end="28509017" start="28506234"/>
+        <Region chromosome="chr1" description="HSPB11+1" end="53946291" start="53928388"/>
+        <Region chromosome="chr1" description="LRRC42+1" end="53960426" start="53946565"/>
+        <Region chromosome="chr1" description="ALG6+1" end="63412061" start="63406333"/>
+        <Region chromosome="chr1" description="TMEM167B+1" end="109094602" start="109090780"/>
+        <Region chromosome="chr1" description="SF3B4+1" end="149923709" start="149901978"/>
+        <Region chromosome="chr1" description="TAGLN2+1" end="159925479" start="159918698"/>
+        <Region chromosome="chr1" description="USF1+1" end="161042663" start="161040349"/>
+        <Region chromosome="chr1" description="SDHC+1" end="161356822" start="161314397"/>
+        <Region chromosome="chr1" description="RGS4+A" end="163074428" start="163072430"/>
+        <Region chromosome="chr1" description="RGS4+B" end="163074428" start="163072499"/>
+        <Region chromosome="chr1" description="BTG2+A" end="203309520" start="203305565"/>
+        <Region chromosome="chr1" description="BTG2+B" end="203309520" start="203308262"/>
+        <Region chromosome="chr1" description="NEK2+2" end="211673699" start="211663301"/>
+        <Region chromosome="chr1" description="NEK2+1" end="211673695" start="211663475"/>
+        <Region chromosome="chr10" description="FAM107B+1" end="14519682" start="14455117"/>
+        <Region chromosome="chr10" description="NEUROG3+A" end="69573378" start="69572840"/>
+        <Region chromosome="chr10" description="NEUROG3+B" end="69573378" start="69573068"/>
+        <Region chromosome="chr10" description="NODAL+1" end="70442341" start="70435649"/>
+        <Region chromosome="chr10" description="ANAPC16+1" end="72233122" start="72216030"/>
+        <Region chromosome="chr10" description="PLAC9+B" end="80144970" start="80132722"/>
+        <Region chromosome="chr10" description="PLAC9+A" end="80144168" start="80142095"/>
+        <Region chromosome="chr10" description="IFIT5+A" end="89418419" start="89414760"/>
+        <Region chromosome="chr10" description="IFIT5+B" end="89418419" start="89417388"/>
+        <Region chromosome="chr10" description="IFIT5+D" end="89419955" start="89418672"/>
+        <Region chromosome="chr10" description="IFIT5+C" end="89420983" start="89419160"/>
+        <Region chromosome="chr10" description="PDLIM1+1" end="95290993" start="95238583"/>
+        <Region chromosome="chr11" description="POLR2L+1" end="842496" start="840271"/>
+        <Region chromosome="chr11" description="LDHA+1" end="18400725" start="18394700"/>
+        <Region chromosome="chr11" description="SAC3D1+1" end="65044624" start="65040954"/>
+        <Region chromosome="chr11" description="DPP3+1" end="66491612" start="66480434"/>
+        <Region chromosome="chr11" end="75796492" start="75768793"/>
+        <Region chromosome="chr11" description="DGAT2+D" end="75797235" start="75784632"/>
+        <Region chromosome="chr11" description="MPZL3+B" end="118252346" start="118228529"/>
+        <Region chromosome="chr11" description="uncalled exon" end="75790305" start="75790177"/>
+        <Region chromosome="chr12" description="RERG+A" end="15119254" start="15109346"/>
+        <Region chromosome="chr12" description="RERG+B" end="15121119" start="15110167"/>
+        <Region chromosome="chr12" description="ITGA7+1" end="55700227" start="55692870"/>
+        <Region chromosome="chr12" description="PYM1+1" end="55927892" start="55901583"/>
+        <Region chromosome="chr12" description="DUSP6+1" end="89352353" start="89348824"/>
+        <Region chromosome="chr12" description="SPRING1+1" end="116737946" start="116716066"/>
+        <Region chromosome="chr13" description="ARL11+A" end="49630833" start="49628515"/>
+        <Region chromosome="chr14" description="KLHDC2+1" end="49785710" start="49779747"/>
+        <Region chromosome="chr14" description="SGPP1+A" end="63716466" start="63686336"/>
+        <Region chromosome="chr14" description="PSMC1+1" end="90269503" start="90259163"/>
+        <Region chromosome="chr14" description="DEGS2+A" end="100159635" start="100146755"/>
+        <Region chromosome="chr14" description="DEGS2+B" end="100168790" start="100149548"/>
+        <Region chromosome="chr14" description="DEGS2+C" end="100192406" start="100166621"/>
+        <Region chromosome="chr15" description="B2M+1" end="44717855" start="44715422"/>
+        <Region chromosome="chr15" description="SORD+1" end="45061202" start="45023331"/>
+        <Region chromosome="chr15" description="CERNA1+1" end="52205695" start="52180131"/>
+        <Region chromosome="chr15" description="MTHFS+1" end="79896889" start="79845261"/>
+        <Region chromosome="chr15" description="RHCG+A" end="89483189" start="89478983"/>
+        <Region chromosome="chr16" description="FBXL16+1" end="695252" start="694305"/>
+        <Region chromosome="chr16" description="MRPS34+1" end="1772892" start="1772427"/>
+        <Region chromosome="chr16" description="NUDT21+1" end="56451305" start="56431486"/>
+        <Region chromosome="chr16" description="PLLP+B" end="57260346" start="57256423"/>
+        <Region chromosome="chr16" description="PLLP+C" end="57260650" start="57256423"/>
+        <Region chromosome="chr16" description="PLLP+D" end="57260345" start="57256870"/>
+        <Region chromosome="chr16" description="PLLP+E" end="57260644" start="57256870"/>
+        <Region chromosome="chr16" description="PLLP+F" end="57284529" start="57256870"/>
+        <Region chromosome="chr16" description="PLLP+A" end="57284624" start="57258490"/>
+        <Region chromosome="chr16" description="CYB5B+1" end="69462937" start="69448130"/>
+        <Region chromosome="chr17" description="TIMM22+1" end="1001073" start="997157"/>
+        <Region chromosome="chr17" description="WSB1+1" end="27309235" start="27306801"/>
+        <Region chromosome="chr17" description="SLC46A1+1" end="28405317" start="28398702"/>
+        <Region chromosome="chr17" description="RND2+1" end="43027281" start="43025477"/>
+        <Region chromosome="chr17" description="DLX4+B" end="49973229" start="49968681"/>
+        <Region chromosome="chr17" description="DLX4+A" end="49974005" start="49969320"/>
+        <Region chromosome="chr17" description="TK1+1" end="78186927" start="78175063"/>
+        <Region chromosome="chr18" description="SYT4+A" end="43277305" start="43270557"/>
+        <Region chromosome="chr19" description="ARID3A+1" end="966816" start="926059"/>
+        <Region chromosome="chr19" description="MICOS13+1" end="5679536" start="5678455"/>
+        <Region chromosome="chr19" description="QTRT1+1" end="10713266" start="10701464"/>
+        <Region chromosome="chr19" description="CNN1+1" end="11550084" start="11539914"/>
+        <Region chromosome="chr19" description="LRFN3+1" end="35944982" start="35936838"/>
+        <Region chromosome="chr19" description="BBC3+1" end="47231039" start="47221197"/>
+        <Region chromosome="chr19" description="RUVBL2+1" end="49015649" start="48993681"/>
+        <Region chromosome="chr19" description="RPS11+1" end="49499629" start="49496442"/>
+        <Region chromosome="chr19" description="C19orf81+1" end="50659260" start="50658488"/>
+        <Region chromosome="chr19" description="CCDC106+1" end="55652698" start="55648061"/>
+        <Region chromosome="chr19" description="ZNF749+1" end="57438320" start="57435392"/>
+        <Region chromosome="chr19" description="ZBTB45+1" end="58519807" start="58513744"/>
+        <Region chromosome="chr2" description="CALM2+1" end="47176508" start="47160221"/>
+        <Region chromosome="chr2" description="DGUOK+1" end="73958903" start="73926960"/>
+        <Region chromosome="chr2" description="LBX2+A" end="74499504" start="74498062"/>
+        <Region chromosome="chr2" description="LBX2+C" end="74499063" start="74498146"/>
+        <Region chromosome="chr2" description="LBX2+B" end="74499827" start="74498365"/>
+        <Region chromosome="chr2" description="FRZB+A" end="182866211" start="182834879"/>
+        <Region chromosome="chr2" description="FRZB+B" end="182858830" start="182838494"/>
+        <Region chromosome="chr2" description="ASNSD1+1" end="189667825" start="189663901"/>
+        <Region chromosome="chr2" description="ARPC2+1" end="218239484" start="218217184"/>
+        <Region chromosome="chr2" description="PID1+B" end="229262878" start="229249583"/>
+        <Region chromosome="chr2" description="PID1+A" end="229271931" start="229249583"/>
+        <Region chromosome="chr20" description="APMAP+1" end="24970367" start="24963677"/>
+        <Region chromosome="chr21" description="GABPA+1" end="25734880" start="25725243"/>
+        <Region chromosome="chr22" description="ZDHHC8+1" end="20141288" start="20139746"/>
+        <Region chromosome="chr22" description="ADORA2A+1" end="24441347" start="24423869"/>
+        <Region chromosome="chr22" description="C22orf42+D" end="32150813" start="32149552"/>
+        <Region chromosome="chr22" description="C22orf42+A" end="32152614" start="32149552"/>
+        <Region chromosome="chr22" description="C22orf42+B" end="32152194" start="32150852"/>
+        <Region chromosome="chr22" description="C22orf42+C" end="32156015" start="32152575"/>
+        <Region chromosome="chr22" description="CSDC2+C" end="41572768" start="41560804"/>
+        <Region chromosome="chr22" description="CSDC2+A" end="41574859" start="41561081"/>
+        <Region chromosome="chr22" description="CSDC2+D" end="41574158" start="41572207"/>
+        <Region chromosome="chr22" description="CSDC2+B" end="41574859" start="41572216"/>
+        <Region chromosome="chr22" description="XRCC6+1" end="41636646" start="41621354"/>
+        <Region chromosome="chr3" description="UBE2E1+1" end="23890983" start="23807315"/>
+        <Region chromosome="chr3" description="RPSA+1" end="39411992" start="39407659"/>
+        <Region chromosome="chr3" description="POMGNT2+B" end="43106005" start="42994364"/>
+        <Region chromosome="chr3" description="POMGNT2+C" end="43106005" start="43080864"/>
+        <Region chromosome="chr3" description="POMGNT2+A" end="43106005" start="43085954"/>
+        <Region chromosome="chr3" description="CCDC71+1" end="49166312" start="49162867"/>
+        <Region chromosome="chr3" description="SLC38A3+A" end="50217792" start="50207362"/>
+        <Region chromosome="chr3" description="SLC38A3+B" end="50219126" start="50218376"/>
+        <Region chromosome="chr3" description="TEX264+1" end="51704143" start="51671245"/>
+        <Region chromosome="chr3" description="CD200+1" end="112362041" start="112345012"/>
+        <Region chromosome="chr3" description="ZNF148+1" end="125313592" start="125272689"/>
+        <Region chromosome="chr3" description="SELENOT+1" end="150628640" start="150603423"/>
+        <Region chromosome="chr3" description="PSMD2+1" end="184305910" start="184301701"/>
+        <Region chromosome="chr3" description="EIF4G1+1" end="184332046" start="184317500"/>
+        <Region chromosome="chr3" description="RPL39L+1" end="187180825" start="187171589"/>
+        <Region chromosome="chr4" description="C4orf48+1" end="2043922" start="2042041"/>
+        <Region chromosome="chr4" description="HAUS3+1" end="2242121" start="2231506"/>
+        <Region chromosome="chr4" description="CC2D2A+1" end="15511590" start="15479245"/>
+        <Region chromosome="chr4" description="RASL11B+1" end="52865676" start="52862404"/>
+        <Region chromosome="chr4" description="SLC9B1+1" end="102887617" start="102869078"/>
+        <Region chromosome="chr4" description="FAM241A+B" end="112180803" start="112145465"/>
+        <Region chromosome="chr4" description="FAM241A+A" end="112186787" start="112145640"/>
+        <Region chromosome="chr4" description="TIFA+A" end="112285789" start="112278146"/>
+        <Region chromosome="chr5" description="ZNF622+1" end="16465635" start="16451565"/>
+        <Region chromosome="chr5" description="RPL37+1" end="40834593" start="40827437"/>
+        <Region chromosome="chr5" description="CENPK+1" end="65561564" start="65529127"/>
+        <Region chromosome="chr5" description="THBS4+1" end="80071158" start="80059758"/>
+        <Region chromosome="chr5" description="GFRA3+A" end="138274423" start="138252974"/>
+        <Region chromosome="chr5" description="GFRA3+B" end="138264305" start="138254080"/>
+        <Region chromosome="chr5" description="GFRA3+C" end="138270701" start="138257510"/>
+        <Region chromosome="chr5" description="HSPA9+1" end="138571089" start="138560972"/>
+        <Region chromosome="chr5" description="HBEGF+D" end="140333520" start="140332925"/>
+        <Region chromosome="chr5" description="HBEGF+B" end="140346157" start="140334162"/>
+        <Region chromosome="chr5" description="HBEGF+A" end="140346423" start="140334162"/>
+        <Region chromosome="chr5" description="HBEGF+C" end="140337377" start="140334889"/>
+        <Region chromosome="chr5" description="DPYSL3+1" end="147509883" start="147395644"/>
+        <Region chromosome="chr6" description="B3GAT2+A" end="70955907" start="70861498"/>
+        <Region chromosome="chr6" description="B3GAT2+B" end="70955907" start="70861757"/>
+        <Region chromosome="chr6" description="CD24+1" end="106975279" start="106973019"/>
+        <Region chromosome="chr7" description="MRM2+1" end="2242193" start="2239453"/>
+        <Region chromosome="chr7" description="ANKMY2+1" end="16645644" start="16600491"/>
+        <Region chromosome="chr7" description="IGF2BP3+1" end="23470296" start="23311888"/>
+        <Region chromosome="chr7" description="MRPS17+1" end="55955083" start="55951915"/>
+        <Region chromosome="chr7" description="CCL26+1" end="75788211" start="75771934"/>
+        <Region chromosome="chr7" description="ASNS+1" end="97872380" start="97858296"/>
+        <Region chromosome="chr7" description="ZSCAN21+1" end="100064052" start="100057064"/>
+        <Region chromosome="chr7" description="TNPO3+1" end="129019987" start="129005091"/>
+        <Region chromosome="chr8" description="XPO7+1" end="22006583" start="21919664"/>
+        <Region chromosome="chr8" description="DUSP4+C" end="29336288" start="29335829"/>
+        <Region chromosome="chr8" description="DUSP4+A" end="29350145" start="29337228"/>
+        <Region chromosome="chr8" description="DUSP4+B" end="29349895" start="29340118"/>
+        <Region chromosome="chr8" description="MSC+A" end="71844331" start="71842417"/>
+        <Region chromosome="chr8" description="MRPS28+1" end="80030190" start="79918949"/>
+        <Region chromosome="chr8" description="CALB1+1" end="90082851" start="90069015"/>
+        <Region chromosome="chr8" description="CIBAR1+1" end="93709840" start="93701306"/>
+        <Region chromosome="chr8" description="KLF10+1" end="102655624" start="102650102"/>
+        <Region chromosome="chr8" description="KLF10+2" end="102655705" start="102650149"/>
+        <Region chromosome="chr8" description="MAL2+1" end="119243562" start="119208424"/>
+        <Region chromosome="chr9" description="DMAC1+1" end="7799751" start="7742406"/>
+        <Region chromosome="chr9" description="ENG+1" end="127825600" start="127819943"/>
+        <Region chromosome="chr9" description="CERCAM+1" end="128435827" start="128428950"/>
+        <Region chromosome="chr9" description="NACC2+1" end="136052045" start="136049762"/>
+        <Region chromosome="chr9" description="DNLZ+C" end="136360403" start="136359529"/>
+        <Region chromosome="chr9" description="DNLZ+A" end="136363543" start="136362102"/>
+        <Region chromosome="chr9" description="DNLZ+B" end="136363543" start="136362895"/>
+        <Region chromosome="chr9" description="CYSRT1+B" end="137225837" start="137221663"/>
+        <Region chromosome="chr9" description="CYSRT1+C" end="137225837" start="137222041"/>
+        <Region chromosome="chr9" description="CYSRT1+A" end="137225837" start="137223847"/>
+        <Region chromosome="chrX" description="PIN4+1" end="72197534" start="72181728"/>
+        <Region chromosome="chrX" description="DIAPH2+1" end="97383979" start="97310588"/>
+        <Region chromosome="chrX" description="HNRNPH2+1" end="101412203" start="101408233"/>
+        <Region chromosome="chrX" description="BGN+A" end="153506910" start="153505257"/>
+        <Region chromosome="chrX" description="BGN+B" end="153506910" start="153505354"/>
+        <Region chromosome="chrX" description="BGN+C" end="153508437" start="153506664"/>
+    </Regions>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>

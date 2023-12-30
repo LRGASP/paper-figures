@@ -2,7 +2,8 @@
 inpdfs = Figures_Overview.pdf \
        Figures_Challenge1.pdf \
        Figures_Challenge2.pdf \
-       Figures_challenge3.pdf
+       Figures_challenge3.pdf \
+	Figures_challenge3.pdf
 outpdf = ../Figures.pdf
 
 all: ${outpdf}

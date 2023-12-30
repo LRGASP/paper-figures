@@ -1,9 +1,9 @@
 
 inpdfs = Figures_Overview.pdf \
-       Figures_Challenge1.pdf \
-       Figures_Challenge2.pdf \
-       Figures_challenge3.pdf \
-	Figures_challenge3.pdf
+	Figures_Challenge1.pdf \
+	Figures_Challenge2.pdf \
+	Figures_Challenge3.pdf \
+	Figures_Validation.pdf
 outpdf = ../Figures.pdf
 
 all: ${outpdf}

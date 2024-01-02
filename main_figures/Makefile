@@ -13,6 +13,6 @@ ${outpdf}: ${inpdfs}
 	mv -f $@.tmp $@
 
 clean:
-	rm -f ${outpdf}
 
 realclean: clean
+	rm -f ${outpdf}

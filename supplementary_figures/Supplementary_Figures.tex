@@ -481,18 +481,15 @@
   transcript isoform-specific qPCR. A combination of probes detecting
   constitutive and alternative regions will be used. (C) RT-PCR validation
   will be performed similar to Challenge 1, except transcript were selected
-  from well-studied mammalian immune-related genes.
-}
-\inclimg{validation_src/Extended_Data_Fig69_transcript_lengths_by_validation_status.pdf}{Extended Data Fig. 69.}{
-  The distribution of lengths corresponding to the target transcript isoform
-  across the entire validation experiment (including GENCODE, Platform, and
-  Consistency groups), broken down by their validation status.
-}
-\inclimg{validation_src/Extended_Figure_70.pdf}{Extended Data Fig. 70.}{
-  PCR validation results for manatee isoforms for seven target genes (data
-  shown in Figure 5l) broken down by the platform (ONT or PacBio) underlying
-  the pipelines that led to the identification of the isoform.
-}
+  from well-studied mammalian immune-related genes.  }
+\inclimg{validation_src/Extended_Data_Fig69_transcript_lengths_by_validation_status.pdf}{Extended
+  Data Fig. 69.}{ The distribution of lengths corresponding to the target
+  transcript isoform across the entire validation experiment (including
+  GENCODE, Platform, and Consistency groups), broken down by their validation
+  status.  } \inclimg{validation_src/Extended_Figure_70.pdf}{Extended Data
+  Fig. 70.}{ PCR validation results for manatee isoforms for seven target
+  genes (data shown in Figure 5l) broken down by the platform (ONT or PacBio)
+  underlying the pipelines that led to the identification of the isoform.  }
 \inclimg{validation_src/Extended_Figure_71.pdf}{Extended Data Fig. 71.}{
   Validation of ALG6 U12 Intron with WTC11 Reads. In panel (a), a novel
   transcript model, NCC_39352 (blue arrow), appears to corroborate the exon
@@ -505,8 +502,7 @@
   GT-AG intron by reporting a six-base deletion in the reference genome (red
   arrow). As all pipelines relied on minimap2, correct annotation of this
   transcript was unattainable, illustrating the challenges difficult-to-align
-  regions can pose to annotation with long- read transcripts.
-}
+  regions can pose to annotation with long- read transcripts.  }
 \inclimg{validation_src/primer-design-example.pdf}{Supplementary Fig. 11.}{
   Designing validation primers. a) An example of a unique intron in transcript
   NNC_381534 to validation.  The green and blue region vertical highlights
@@ -515,7 +511,12 @@
   transcript with the maximal possible amplicon drawn in thick boxes. b) The
   Primers-Juju track hub with the addition of the primer pairs design. This
   adds Primer3 results (Primers track) and the most stable primer along with
-  the amplicon sequence for the target transcript (Amplicons track).
+  the amplicon sequence for the target transcript (Amplicons track).  }
+\inclcrop{challenge1_src/images/perf-known-novel.pdf}{250pt}{Supplementary Fig. 111.}{
+  Performance of tools on a) known genes and b) novel transcripts from
+  manual annotation of 50 genes manually-annotated by GENCODE.  Tools are:
+  Ba: Bambu, FM: Flames, FR: FLAIR, IQ: IsoQuant, IT: IsoTools, IB: Iso_IB,
+  Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra, ST: StringTie2.
 }
 
 \end{document}

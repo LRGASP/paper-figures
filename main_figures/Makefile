@@ -13,7 +13,7 @@ ${outpdf}: ${inpdfs}
 	mv -f $@.tmp $@
 
 img_check_tmp = ${HOME}/tmp/lrgasp-img-check
-check_images: ${inpdfs:%=${img_check_tmp}/%.tmp/done}
+check-images: ${inpdfs:%=${img_check_tmp}/%.tmp/done}
 
 ${img_check_tmp}/%.tmp/done: %
 	rm -rf $(dir $@)

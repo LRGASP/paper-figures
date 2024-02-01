@@ -299,7 +299,7 @@ TSWLatexianTemp*
 
 .emacs.bak/
 
-Figures.pdf
-Extended_Data_Figures.pdf
-Supplementary_Figures.pdf
+/Figures.pdf
+/Extended_Data_Figures.pdf
+/Supplementary_Figures.pdf
 tex.tmp/

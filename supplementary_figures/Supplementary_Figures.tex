@@ -3,159 +3,36 @@
 \input{../figure-defs.tex}
 \begin{document}
 
-%%%%
-%% Overview
-%%%%
-\inclimgsz{overview_src/summary-of-data-edit.pdf}{140mm}{@Supplementary Fig. 38}{
-  % was: Supplementary Fig. 1.
-  Read characteristics for the WTC-11 sample.
-  a) Read lengths for the different library prep and technology combinations.
-  The 500,000 longest reads for each library prep and technology combination
-  fall to the right of a labeled red line overlapping each plot. b-c) The read
-  identity and percent of aligned read bases of the different library prep and
-  technology combinations is shown for reads of different length in 500nt
-  bins.
-  d) Read number for the three replicates, read identity, mismatch, and indel
-  percentages for the different library prep and technology combinations are
-  shown as vertical swarmplots.
-  The box overlays for the swam plots percentiles are 5\%, 25\%, 50\%, 75\%, and 95\%.
-}
-\inclimgsm{overview_src/challenge-submission.pdf}{@Supplementary Fig. 59}{
-  % was: Supplementary Fig. 2.
-  Challenge submission. a) Overview of submissions to Challenges 1 and 2. Each
-  entry was derived from a specific data category, library prep, and
-  sequencing platform combination. All available samples for the selected
-  combination must be included in an entry. b) Overview of submissions for
-  Challenge 3.
-}
-\inclimg{overview_src/submission-structure.pdf}{Supplementary Fig. 3}{
-  % was: Supplementary Fig. 3.
-  Schematic of directory structure and files that are included in each entry.
-}
-\inclimgsm{overview_src/challenge1_overview_v1.pdf}{@Supplementary Fig. 60}{
-  % was: Supplementary Fig. 8.
-  Flow diagram of Challenge 1: Transcript isoform detection with a
-  high-quality genome. Samples, library prep methods, and sequencing platforms
-  used in the challenge are indicated at the top. Participants select which
-  data category, library prep, and sequencing platform to analyze, run their
-  pipelines to generate transcript predictions, and submit an entry which
-  includes predictions for all samples. The entries include a GTF file of the
-  transcript models and a TSV file that assigns reads that supported each
-  transcript model.
-}
-\inclcropsz{overview_src/challenge2_overview_v1.pdf}{120pt}{150mm}{@Supplementary Fig. 61}{
-  % was: Supplementary Fig. 9.
-  Flow diagram of Challenge 2: Transcript isoform quantification. Samples,
-  library prep methods, and sequencing platforms used in the challenge are
-  indicated at the top. Participants select which data category, library prep,
-  and sequencing platform to analyze, run their pipelines to generate
-  transcript predictions, and submit an entry which includes predictions for
-  all samples. The entries include a GTF file of the transcript models that
-  are quantified and a TSV file of the expression quantification. The H1 and
-  endodermal cell samples were released after the initial submission deadline
-  and participants were required to submit the quantification after the
-  deadline.
-}
-\inclimgsm{overview_src/challenge3_overview_v1.pdf}{@Supplementary Fig. 62}{
-  % was: Supplementary Fig. 10.
-  Flow diagram of Challenge 3. Samples, library prep methods, and sequencing
-  platforms used in the challenge are indicated at the top. Participants
-  select which data category and sequencing platform to analyze, run their
-  pipelines to generate transcript predictions, and submit an entry which
-  includes predictions for all samples. The entries include a FASTA file of
-  the transcript models and a TSV file that assigns reads that supported each
-  transcript model.
-}
-\inclimgsm{overview_src/challenge1_evaluation_v1.pdf}{Supplementary Fig. 11}{
-  % was: Supplementary Fig. 11.
-  Flow diagram of the evaluation for Challenge 1. Benchmarks and additional
-  orthogonal data that was used for the evaluation are indicated. For example,
-  CAGE and QuantSeq data from WTC11 cells were generated and made available
-  only after participant submissions; therefore, they represent “hidden”
-  data. These was used to define 5’ transcript starts and 3’ ends.
-}
-\inclimgsz{overview_src/challenge2_evaluation_v2.pdf}{170mm}{Supplementary Fig. 12}{
-  % was: Supplementary Fig. 12.
-  Flow diagram of the evaluation for Challenge 2. a) Evaluation of Challenge
-  2 can be separated into metrics when a ground truth is known or a ground
-  truth is unknown. b) Example analyses to evaluate transcript expression
-  using the cell mixing experiment. A sample, H1_mix, was initially provided
-  for quantification which was a mix of H1 cells and endodermal cells at an
-  undisclosed ratio. After the initial submission, the individual H1 and
-  endodermal cell samples were released and participants submitted
-  quantifications for each.
-}
-\inclimg{overview_src/challenge3_evaluation_v1.pdf}{Supplementary Fig. 13}{
-  % was: Supplementary Fig. 13.
-  Flow diagram of the evaluation for Challenge 3. Only SIRVs are available for
-  ground truth information. The evaluation was based on a comparative
-  assessment of the predictions followed by targeting specific candidates for
-  further validation.
-}
-%%%%
-%% challenge 1
-%%%%
-\inclimg{challenge1_src/images/read-usage-by-tool.pdf}{@Supplementary Fig. 46}{
-  % was: Extended Data Fig. 1.
-  Read usage by analysis tool. a-c) The Percentage of Reads
-  Used (PRU) is calculated as the fraction between the number of reads in
-  transcript models provided in the submission of each pipelines and the
-  number of available reads in the dataset. Values > 100 indicate the same
-  read is assigned to more than one transcript model. Values < 100 indicate
-  that not all available reads were used to predict transcript models. d)
-  Distribution of the number of transcripts assigned to each long-read in the
-  submitted reads2transcripts files. Values are aggregated for all submissions
-  of the same tool.
-}
 \inclgen{challenge1_src/generated/Extended_Fig._4_seq-depth-by-detected-features.pdf}{@Supplementary Fig. 1}{
   % was: Extended Data Fig. 4.
+  \unused{
   Relationship between sequencing depth and number of detected features. a-c) Transcripts, d-f)
   Genes.
+  }
 }
 \inclgen{challenge1_src/generated/Extended_Fig._5_read-length-by-detected-features.pdf}{@Supplementary Fig. 2}{
   % was: Extended Data Fig. 5.
-  Relationship between read length and number of detected features. a-c) Transcripts, d-f) Genes.
+  \unused{
+    Relationship between read length and number of detected features. a-c) Transcripts, d-f) Genes.
+  }
 }
 \inclgen{challenge1_src/generated/Extended_Fig._6_read-qual-by-detected-features.pdf}{@Supplementary Fig. 3}{
   % was: Extended Data Fig. 6.
-  Relationship between read quality and number of detected features. a-c) Transcripts, d-f) Genes.
+  \unused{
+    Relationship between read quality and number of detected features. a-c) Transcripts, d-f) Genes.
+  }
 }
 \inclgen{challenge1_src/generated/Extended_Fig._7_deviance-dectected-features-by-expr-factors.pdf}{@Supplementary Fig. 4}{
   % was: Extended Data Fig. 7.
-  Median Absolute Deviance of detected features by experimental factor. a-c) Transcripts, d-f) Genes.
+  \unused{
+    Median Absolute Deviance of detected features by experimental factor. a-c) Transcripts, d-f) Genes.
+  }
 }
 \inclgen{challenge1_src/generated/Extended_Fig._8_detected-trans-gene-by-tool.pdf}{@Supplementary 5}{
   % was: Extended Data Fig. 8.
-  Number of detected transcripts and genes per analysis tool. a-c) Transcripts, d-f) Genes.
-}
-\inclgen{challenge1_src/generated/Extended_Fig._9_detected-genes-by-plat-prep.pdf}{@Supplementary Fig. 47}{
-  % was: Extended Data Fig. 9.
-  Number of detected genes per Platform and Library Preparation. a-c) Platform, d-f) Library
-  Preparation.
-}
-\inclgen{challenge1_src/generated/Extended_Fig._10_detected-genes-by-plat-prep.pdf}{@Supplementary Fig. 48}{
-  % was: Extended Data Fig. 10.
-  Number of detected transcripts per Platform and Library Preparation.
-}
-\inclgen{challenge1_src/generated/Extended_Fig._11_detected-trans-by-cDNA-CapTrap.pdf}{@Supplementary Fig. 49}{
-  % was: Extended Data Fig. 11.
-  Number of
-  detected transcripts in cDNA and CapTrap libraries. a-c) cDNA, d-f) CapTrap.
-}
-\inclgen{challenge1_src/generated/Extended_Fig._12_detected-trans-by-PacBio-ONT.pdf}{@Supplementary Fig. 50}{
-  % was: Extended Data Fig. 12.
-  Number of
-  detected transcripts in PacBio and Nanopore platforms. a-c) PacBio, d-f) Nanopore.
-}
-\inclgen{challenge1_src/generated/Extended_Fig._13_detected-genes-by-PacBio-ONT.pdf}{@Supplementary Fig. 51}{
-  % was: Extended Data Fig. 13.
-  Number of
-  detected genes in cDNA and CapTrap libraries. a-c) cDNA, d-f) CapTrap.
-}
-\inclgen{challenge1_src/generated/Extended_Fig._14_detected-genes-by-PacBio-ONT.pdf}{@Supplementary Fig. 52}{
-  % was: Extended Data Fig. 14.
-  Number of
-  detected genes in PacBio and Nanopore platforms. a-c) PacBio, d-f) Nanopore.
+  \unused{
+    Number of detected transcripts and genes per analysis tool. a-c) Transcripts, d-f) Genes.
+  }
 }
 \inclgen{challenge1_src/generated/Extended_Fig._15_FSM-ISM-by-plat-lib.pdf}{@Supplementary Fig. 6}{
   % was: Extended Data Fig. 15.
@@ -202,10 +79,6 @@
   % was: Extended Data Fig. 24.
   Distribution of Biotypes across pipelines. a) WTC11, c) H1-mix, c) Mouse ES.
 }
-\inclgen{challenge1_src/generated/Extended_Fig._25_biotype-per-pipeline.pdf}{@Supplementary Fig. 5001}{
-  % was: Extended Data Fig. 25.
-  Biotypes per pipeline. a) WTC11, c) H1-mix, c) Mouse ES.
-}
 \inclgen{challenge1_src/generated/Extended_Fig._26_cnt_squanti_dist-UIC.pdf}{@Supplementary Fig. 15}{
   % was: Extended Data Fig. 26.
   Number and
@@ -241,7 +114,7 @@
   Number of UIC detected by a tool and shared with an increasing number of other tools,
   processing PacBio_cDNA data. a) WTC11, c) H1-mix, c) Mouse ES.
 }
-\inclgen{challenge1_src/generated/Extended_Fig._31_UIC-by-tool-PacBio_CapTrap.pdf}{@Supplementary Fig. 10}{
+\inclgen{challenge1_src/generated/Extended_Fig._31_UIC-by-tool-PacBio_CapTrap.pdf}{@Supplementary Fig. 20}{
   % was: Extended Data Fig. 31.
   Number of UIC detected by a tool and shared with an increasing number of other tools,
   processing PacBio_CapTrap data. a) WTC11, c) H1-mix, c) Mouse ES.
@@ -270,62 +143,9 @@
   detected by a tool and shared with an increasing number of other tools, processing ONT_dRNA
   data. a) WTC11, c) H1-mix, c) Mouse ES
 }
-\inclgen{challenge1_src/generated/Extended_Fig._36_UIC-by-tool-sample.pdf}{@Supplementary Fig. 57}{
-  % was: Extended Data Fig. 36.
-  Number of UIC
-  consistently detected by a tool across samples. a) WTC11, c) H1-mix, c) Mouse ES
-}
-\inclimg{challenge1_src/images/frequent-uic-characterization.pdf}{@Supplementary Fig. 58}{
-  % was: Extended Data Fig. 37.
-  Characterization of frequently detected UICs (FDU).  a,c,e) Structural
-  category distribution of FDU. The table indicates the fold enrichment of
-  each structural category within the frequently detected transcripts respect
-  to their global count. b,d,f) Tools identifying FDU. The graph shows the
-  enrichment in the number FDU found by a tool with respect to their global
-  number of reported transcripts. The table reports the total number of FDU
-  detected by the tool.
-}
-\inclgen{challenge1_src/generated/Extended_Fig._38_trans-prop-by-prep.pdf}{@Supplementary Fig. 53}{
-  % was: Extended Data Fig. 38.
-  Properties of
-  detected transcripts by library preparation. a,d,g) Length distribution. b,e,h) Exon number
-  distribution. c,f,i) Counts per million
-}
-\inclgen{challenge1_src/generated/Extended_Fig._39_trans-prop-by-plat.pdf}{@Supplementary Fig. 54}{
-  % was: Extended Data Fig. 39.
-  Properties of
-  detected transcripts by platform. a,d,g) Length distribution. b,e,h) Exon number
-  distribution. c,f,i) Counts per million
-}
-\inclgen{challenge1_src/generated/Extended_Fig._40_trans-by-protocol.pdf}{@Supplementary Fig. 55}{
-  % was: Extended Data Fig. 40.
-  Properties of
-  detected transcripts by experimental protocol. a,d,g) Length distribution. b,e,h) Exon number
-  distribution. c,f,i) Counts per million
-}
-\inclgen{challenge1_src/generated/Extended_Fig._41_trans-len-by-tool.pdf}{@Supplementary Fig. 56}{
-  % was: Extended Data Fig. 41.
-  Distribution of transcript length by analysis tool.
-}
 \inclimg{challenge1_src/generated/sirv-cover-cDNA_ONT.pdf}{@Supplementary Fig. 25}{
   % was: Extended Data Fig. 42c., Extended Data Fig. 4201.
   Positional coverage of SIRV transcript sequences by long reads in the cDNA_ONT sample.
-}
-\inclimg{challenge1_src/generated/sirv-cover-CapTrap_PacBio.pdf}{@Supplementary Fig. 4202}{
-  % was: Extended Data Fig. 42b, Supplementary Fig. 4202.
-  Positional coverage of SIRV transcript sequences by long reads in the CapTrap_PacBio.
-}
-\inclimg{challenge1_src/generated/sirv-cover-CapTrap_ONT.pdf}{@Supplementary Fig. 4203}{
-  % was: Extended Data Fig. 42d., Supplementary Fig. 4203.
-  Positional coverage of SIRV transcript sequences by long reads in the CapTrap_ONT.
-}
-\inclimg{challenge1_src/generated/sirv-cover-R2C2_ONT.pdf}{@Supplementary Fig. 4204}{
-  % was: Extended Data Fig. 42e., Extended Data Fig. 4204.
-  Positional coverage of SIRV transcript sequences by long reads in the R2C2_ONT sample.
-}
-\inclimg{challenge1_src/generated/sirv-cover-dRNA_ONT.pdf}{@Supplementary Fig. 4205}{
-  % was: Supplementary Fig. 4205.
-  Positional coverage of SIRV transcript sequences by long reads in the dRNA_ONT sample.
 }
 \inclcrop{challenge1_src/generated/Extended_Fig._43_metrics-mouse-simul.pdf}{68pt}{@Supplementary Fig. 26}{
   % was: Extended Data Fig. 43.
@@ -335,48 +155,33 @@
   Sen_no: sensitivity novel transcripts, Pre_no: precision novel transcripts, 1/Red: inverse of
   redundancy.
 }
-\inclgen{challenge1_src/generated/Extended_Fig._44_trans-cover-real-simul.pdf}{Supplementary Fig. 27}{
+\inclgen{challenge1_src/generated/Extended_Fig._44_trans-cover-real-simul.pdf}{@Supplementary Fig. 27}{
   % was: Extended Data Fig. 44.
   Comparison of long-read transcript coverage between real and simulated datasets.
 }
+\inclcrop{challenge1_src/images/perf-known-novel.pdf}{250pt}{@Supplementary Fig. 28}{
+  % was: Supplementary Fig. 111.
+  Performance of tools on a) known genes and b) novel transcripts from
+  manual annotation of 50 genes manually-annotated by GENCODE.  Tools are:
+  Ba: Bambu, FM: Flames, FR: FLAIR, IQ: IsoQuant, IT: IsoTools, IB: Iso_IB,
+  Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra, ST: StringTie2.
+}
 \inclcrop{challenge1_src/generated/Extended_Fig._47_pipeline-by-gencode-manual.pdf}{38pt}{@Supplementary Fig. 29}{
   % was: Extended Data Fig. 47.
+  \unused{
   Performance metrics of LRGASP pipelines evaluate against GENCODE manual annotation of mouse
   ES sample. Ba: Bambu, FM: Flames, FR: FLAIR, IQ: IsoQuant, IT: IsoTools, IB: Iso_IB, Ly:
   LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra, ST: StringTie2.
+  }
 }
 \inclcrop{challenge1_src/generated/Extended_Fig._48_uic-gencode-manual-by-tool.pdf}{38pt}{@Supplementary Fig. 30}{
   % was: Extended Data Fig. 48.
+  \unused{
   Detection of Unique Intron Chains (UIC) at GENCODE manual annotation loci. Ba: Bambu, FM:
   Flames, FL: FLAIR, IQ: IsoQuant, IT: IsoTools, IB: Iso_IB, Ly: LyRic, Ma: Mandalorion, TL:
   TALON-LAPA, Sp: Spectra, ST: StringTie2.
+  }
 }
-\inclcrop{challenge1_src/generated/Extended_Fig._49_gencode-manual-by-tool-two-datasets.pdf}{38pt}{Supplementary Fig. 63}{
-  % was: Extended Data Fig. 49.
-  Performance on GENCODE manually curated data. Curated transcripts selected to be present in
-  at least two experimental datasets. Ba: Bambu, FM: Flames, FL: FLAIR, IQ: IsoQuant, IT:
-  IsoTools, IB: Iso_IB, Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra, ST:
-  StringTie2.
-}
-\inclcrop{challenge1_src/generated/Extended_Fig._50_gencode-manual-by-tool-three-reads.pdf}{38pt}{@Supplementary Fig. 64}{
-  % was: Extended Data Fig. 50.
-  Performance on GENCODE manually curated data. The ground truth is the set of manually
-  annotated transcripts with more than two reads. Ba: Bambu, FM: Flames, FL: FLAIR, IQ:
-  IsoQuant, IT: IsoTools, IB: Iso_IB, Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra,
-  ST: StringTie2.
-}
-\inclgenb{challenge1_src/generated/Extended_Fig._51_gencode-manual-by-prep.pdf}{@Supplementary Fig. 65}{
-  % was: Extended Data Fig. 51.
- Performance on GENCODE manually curated data by Library Preparation.
-}
-\inclgenb{challenge1_src/generated/Extended_Fig._52_gencode-manual-by-plat.pdf}{@Supplementary Fig. 66}{
-  % was: Extended Data Fig. 52.
-  Performance on GENCODE manually curated data by Platform.
-}
-
-%%%%
-%% challenge 2
-%%%%
 \inclimg{challenge2_src/overall_irreproducibility.pdf}{@Supplementary Fig. 31}{
   % was: Extended Data Fig. 54
   Overall evaluation results of irreproducibility on real data with
@@ -479,16 +284,20 @@
   diverse datasets, with error bars indicating the standard deviation
   of NRMSE metric.
 }
-
-\inclimg{challenge2_src/K-value_description.pdf}{@Supplementary Fig. 44}{
-  % was: Extended Data Fig. 62
-  Description of K-value.  A measure of the complexity of exon-isoform
-  structures for each gene.
+\inclimgsz{overview_src/summary-of-data-edit.pdf}{140mm}{@Supplementary Fig. 38}{
+  % was: Supplementary Fig. 1.
+  Read characteristics for the WTC-11 sample.
+  a) Read lengths for the different library prep and technology combinations.
+  The 500,000 longest reads for each library prep and technology combination
+  fall to the right of a labeled red line overlapping each plot. b-c) The read
+  identity and percent of aligned read bases of the different library prep and
+  technology combinations is shown for reads of different length in 500nt
+  bins.
+  d) Read number for the three replicates, read identity, mismatch, and indel
+  percentages for the different library prep and technology combinations are
+  shown as vertical swarmplots.
+  The box overlays for the swam plots percentiles are 5\%, 25\%, 50\%, 75\%, and 95\%.
 }
-
-%%%%
-%% challenge 3
-%%%%
 \inclimg{challenge3_src/Extended_Fig._63.pdf}{@Supplementary Fig. 39}{
   % was: Extended Data Fig. 63.
   Manatee genome assembly statistics. a Nanopore reads were used to obtain a
@@ -503,41 +312,23 @@
   % was: Extended Data Fig. 66.
   Coding potential of transcripts detected by Challenge 3 submissions.
 }
-\inclcrop{challenge3_src/Extended_Fig._67.pdf}{38pt}{Extended Data Fig. 67}{
+\inclcrop{challenge3_src/Extended_Fig._67.pdf}{38pt}{@Supplementary Fig. 42}{
   % was: Extended Data Fig. 67.
   SQANTI3 analysis of SIRV reads in manatee samples. a) SQANTI3 categories for
   reads mapping to SIRVs in cDNA-PacBio and cDNA-ONT replicates. b) Number of
   SIRV transcripts with at least one Reference Match (RM) read in cDNA-PacBio
   and cDNA-ONT replicates.
 }
-%%%%
-%% validation
-%%%%
-\inclimgsz{validation_src/LRGASP_Experimental_Validation_plan.pdf}{140mm}{Supplementary Fig. 14}{
-  % was: Supplementary Fig. 14.
-  Experimental validation approaches for the LRGASP challenges. (A) Multiple
-  categories of types of transcript were selected for validation (shown in
-  green boxes). These loci will be viewed in the UCSC Genome Browser along
-  with additional datasets to aid in the manual design of primers. Amplicons
-  will be analyzed by fragment size and pooled to perform long-read sequencing
-  with PacBio and ONT (B) A select number of genes were selected for
-  transcript isoform-specific qPCR. A combination of probes detecting
-  constitutive and alternative regions will be used. (C) RT-PCR validation
-  will be performed similar to Challenge 1, except transcript were selected
-  from well-studied mammalian immune-related genes.
-}
-\inclimg{validation_src/Extended_Data_Fig69_transcript_lengths_by_validation_status.pdf}{@Supplementary Fig. 5000}{
-  % was: Extended Data Fig. 69.
-  The distribution of lengths corresponding to the target
-  transcript isoform across the entire validation experiment (including
-  GENCODE, Platform, and Consistency groups), broken down by their validation
-  status.
-}
 \inclimg{validation_src/Extended_Figure_70.pdf}{@Supplementary Fig. 43}{
   % was: Extended Data  Fig. 70.
   PCR validation results for manatee isoforms for seven target
   genes (data shown in Figure 5l) broken down by the platform (ONT or PacBio)
   underlying the pipelines that led to the identification of the isoform.
+}
+\inclimg{challenge2_src/K-value_description.pdf}{@Supplementary Fig. 44}{
+  % was: Extended Data Fig. 62
+  Description of K-value.  A measure of the complexity of exon-isoform
+  structures for each gene.
 }
 \inclimg{validation_src/Extended_Figure_71.pdf}{@Supplementary Fig. 45}{
   % was: Extended Data Fig. 71.
@@ -554,7 +345,192 @@
   transcript was unattainable, illustrating the challenges difficult-to-align
   regions can pose to annotation with long- read transcripts.
 }
-\inclimg{validation_src/primer-design-example.pdf}{Supplementary Fig. 15}{
+\inclimg{challenge1_src/images/read-usage-by-tool.pdf}{@Supplementary Fig. 46}{
+  % was: Extended Data Fig. 1.
+  Read usage by analysis tool. a-c) The Percentage of Reads
+  Used (PRU) is calculated as the fraction between the number of reads in
+  transcript models provided in the submission of each pipelines and the
+  number of available reads in the dataset. Values > 100 indicate the same
+  read is assigned to more than one transcript model. Values < 100 indicate
+  that not all available reads were used to predict transcript models. d)
+  Distribution of the number of transcripts assigned to each long-read in the
+  submitted reads2transcripts files. Values are aggregated for all submissions
+  of the same tool.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._9_detected-genes-by-plat-prep.pdf}{@Supplementary Fig. 47}{
+  % was: Extended Data Fig. 9.
+  Number of detected genes per Platform and Library Preparation. a-c) Platform, d-f) Library
+  Preparation.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._10_detected-genes-by-plat-prep.pdf}{@Supplementary Fig. 48}{
+  % was: Extended Data Fig. 10.
+  Number of detected transcripts per Platform and Library Preparation.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._11_detected-trans-by-cDNA-CapTrap.pdf}{@Supplementary Fig. 49}{
+  % was: Extended Data Fig. 11.
+  Number of
+  detected transcripts in cDNA and CapTrap libraries. a-c) cDNA, d-f) CapTrap.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._12_detected-trans-by-PacBio-ONT.pdf}{@Supplementary Fig. 50}{
+  % was: Extended Data Fig. 12.
+  Number of
+  detected transcripts in PacBio and Nanopore platforms. a-c) PacBio, d-f) Nanopore.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._13_detected-genes-by-PacBio-ONT.pdf}{@Supplementary Fig. 51}{
+  % was: Extended Data Fig. 13.
+  Number of
+  detected genes in cDNA and CapTrap libraries. a-c) cDNA, d-f) CapTrap.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._14_detected-genes-by-PacBio-ONT.pdf}{@Supplementary Fig. 52}{
+  % was: Extended Data Fig. 14.
+  Number of
+  detected genes in PacBio and Nanopore platforms. a-c) PacBio, d-f) Nanopore.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._38_trans-prop-by-prep.pdf}{@Supplementary Fig. 53}{
+  % was: Extended Data Fig. 38.
+  Properties of
+  detected transcripts by library preparation. a,d,g) Length distribution. b,e,h) Exon number
+  distribution. c,f,i) Counts per million
+}
+\inclgen{challenge1_src/generated/Extended_Fig._39_trans-prop-by-plat.pdf}{@Supplementary Fig. 54}{
+  % was: Extended Data Fig. 39.
+  Properties of
+  detected transcripts by platform. a,d,g) Length distribution. b,e,h) Exon number
+  distribution. c,f,i) Counts per million
+}
+\inclgen{challenge1_src/generated/Extended_Fig._40_trans-by-protocol.pdf}{@Supplementary Fig. 55}{
+  % was: Extended Data Fig. 40.
+  Properties of
+  detected transcripts by experimental protocol. a,d,g) Length distribution. b,e,h) Exon number
+  distribution. c,f,i) Counts per million
+}
+\inclgen{challenge1_src/generated/Extended_Fig._41_trans-len-by-tool.pdf}{@Supplementary Fig. 56}{
+  % was: Extended Data Fig. 41.
+  Distribution of transcript length by analysis tool.
+}
+\inclgen{challenge1_src/generated/Extended_Fig._36_UIC-by-tool-sample.pdf}{@Supplementary Fig. 57}{
+  % was: Extended Data Fig. 36.
+  Number of UIC
+  consistently detected by a tool across samples. a) WTC11, c) H1-mix, c) Mouse ES
+}
+\inclimg{challenge1_src/images/frequent-uic-characterization.pdf}{@Supplementary Fig. 58}{
+  % was: Extended Data Fig. 37.
+  Characterization of frequently detected UICs (FDU).  a,c,e) Structural
+  category distribution of FDU. The table indicates the fold enrichment of
+  each structural category within the frequently detected transcripts respect
+  to their global count. b,d,f) Tools identifying FDU. The graph shows the
+  enrichment in the number FDU found by a tool with respect to their global
+  number of reported transcripts. The table reports the total number of FDU
+  detected by the tool.
+}
+\inclimgsm{overview_src/challenge-submission.pdf}{@Supplementary Fig. 59}{
+  % was: Supplementary Fig. 2.
+  Challenge submission. a) Overview of submissions to Challenges 1 and 2. Each
+  entry was derived from a specific data category, library prep, and
+  sequencing platform combination. All available samples for the selected
+  combination must be included in an entry. b) Overview of submissions for
+  Challenge 3.
+}
+\inclimgsm{overview_src/challenge1_overview_v1.pdf}{@Supplementary Fig. 60}{
+  % was: Supplementary Fig. 8.
+  Flow diagram of Challenge 1: Transcript isoform detection with a
+  high-quality genome. Samples, library prep methods, and sequencing platforms
+  used in the challenge are indicated at the top. Participants select which
+  data category, library prep, and sequencing platform to analyze, run their
+  pipelines to generate transcript predictions, and submit an entry which
+  includes predictions for all samples. The entries include a GTF file of the
+  transcript models and a TSV file that assigns reads that supported each
+  transcript model.
+}
+\inclcropsz{overview_src/challenge2_overview_v1.pdf}{120pt}{150mm}{@Supplementary Fig. 61}{
+  % was: Supplementary Fig. 9.
+  Flow diagram of Challenge 2: Transcript isoform quantification. Samples,
+  library prep methods, and sequencing platforms used in the challenge are
+  indicated at the top. Participants select which data category, library prep,
+  and sequencing platform to analyze, run their pipelines to generate
+  transcript predictions, and submit an entry which includes predictions for
+  all samples. The entries include a GTF file of the transcript models that
+  are quantified and a TSV file of the expression quantification. The H1 and
+  endodermal cell samples were released after the initial submission deadline
+  and participants were required to submit the quantification after the
+  deadline.
+}
+\inclimgsm{overview_src/challenge3_overview_v1.pdf}{@Supplementary Fig. 62}{
+  % was: Supplementary Fig. 10.
+  Flow diagram of Challenge 3. Samples, library prep methods, and sequencing
+  platforms used in the challenge are indicated at the top. Participants
+  select which data category and sequencing platform to analyze, run their
+  pipelines to generate transcript predictions, and submit an entry which
+  includes predictions for all samples. The entries include a FASTA file of
+  the transcript models and a TSV file that assigns reads that supported each
+  transcript model.
+}
+\inclcrop{challenge1_src/generated/Extended_Fig._49_gencode-manual-by-tool-two-datasets.pdf}{38pt}{@Supplementary Fig. 63}{
+  % was: Extended Data Fig. 49.
+  Performance on GENCODE manually curated data. Curated transcripts selected to be present in
+  at least two experimental datasets. Ba: Bambu, FM: Flames, FL: FLAIR, IQ: IsoQuant, IT:
+  IsoTools, IB: Iso_IB, Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra, ST:
+  StringTie2.
+}
+\inclcrop{challenge1_src/generated/Extended_Fig._50_gencode-manual-by-tool-three-reads.pdf}{38pt}{@Supplementary Fig. 64}{
+  % was: Extended Data Fig. 50.
+  Performance on GENCODE manually curated data. The ground truth is the set of manually
+  annotated transcripts with more than two reads. Ba: Bambu, FM: Flames, FL: FLAIR, IQ:
+  IsoQuant, IT: IsoTools, IB: Iso_IB, Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra,
+  ST: StringTie2.
+}
+\inclgenb{challenge1_src/generated/Extended_Fig._51_gencode-manual-by-prep.pdf}{@Supplementary Fig. 65}{
+  % was: Extended Data Fig. 51.
+ Performance on GENCODE manually curated data by Library Preparation.
+}
+\inclgenb{challenge1_src/generated/Extended_Fig._52_gencode-manual-by-plat.pdf}{@Supplementary Fig. 66}{
+  % was: Extended Data Fig. 52.
+  Performance on GENCODE manually curated data by Platform.
+}
+\inclimg{overview_src/submission-structure.pdf}{@Supplementary Fig. 67}{
+  % was: Supplementary Fig. 3.
+  Schematic of directory structure and files that are included in each entry.
+}
+\inclimgsm{overview_src/challenge1_evaluation_v1.pdf}{@Supplementary Fig. 68}{
+  % was: Supplementary Fig. 11.
+  Flow diagram of the evaluation for Challenge 1. Benchmarks and additional
+  orthogonal data that was used for the evaluation are indicated. For example,
+  CAGE and QuantSeq data from WTC11 cells were generated and made available
+  only after participant submissions; therefore, they represent “hidden”
+  data. These was used to define 5’ transcript starts and 3’ ends.
+}
+\inclimgsz{overview_src/challenge2_evaluation_v2.pdf}{170mm}{@Supplementary Fig. 69}{
+  % was: Supplementary Fig. 12.
+  Flow diagram of the evaluation for Challenge 2. a) Evaluation of Challenge
+  2 can be separated into metrics when a ground truth is known or a ground
+  truth is unknown. b) Example analyses to evaluate transcript expression
+  using the cell mixing experiment. A sample, H1_mix, was initially provided
+  for quantification which was a mix of H1 cells and endodermal cells at an
+  undisclosed ratio. After the initial submission, the individual H1 and
+  endodermal cell samples were released and participants submitted
+  quantifications for each.
+}
+\inclimg{overview_src/challenge3_evaluation_v1.pdf}{@Supplementary Fig. 70}{
+  % was: Supplementary Fig. 13.
+  Flow diagram of the evaluation for Challenge 3. Only SIRVs are available for
+  ground truth information. The evaluation was based on a comparative
+  assessment of the predictions followed by targeting specific candidates for
+  further validation.
+}
+\inclimgsz{validation_src/LRGASP_Experimental_Validation_plan.pdf}{140mm}{@Supplementary Fig. 71}{
+  % was: Supplementary Fig. 14.
+  Experimental validation approaches for the LRGASP challenges. (A) Multiple
+  categories of types of transcript were selected for validation (shown in
+  green boxes). These loci will be viewed in the UCSC Genome Browser along
+  with additional datasets to aid in the manual design of primers. Amplicons
+  will be analyzed by fragment size and pooled to perform long-read sequencing
+  with PacBio and ONT (B) A select number of genes were selected for
+  transcript isoform-specific qPCR. A combination of probes detecting
+  constitutive and alternative regions will be used. (C) RT-PCR validation
+  will be performed similar to Challenge 1, except transcript were selected
+  from well-studied mammalian immune-related genes.
+}
+\inclimg{validation_src/primer-design-example.pdf}{@Supplementary Fig. 72}{
   % was: Supplementary Fig. 15.
   Designing validation primers. a) An example of a unique intron in transcript
   NNC_381534 to validation.  The green and blue region vertical highlights
@@ -565,12 +541,49 @@
   adds Primer3 results (Primers track) and the most stable primer along with
   the amplicon sequence for the target transcript (Amplicons track).
 }
-\inclcrop{challenge1_src/images/perf-known-novel.pdf}{250pt}{@Supplementary Fig. 28}{
-  % was: Supplementary Fig. 111.
-  Performance of tools on a) known genes and b) novel transcripts from
-  manual annotation of 50 genes manually-annotated by GENCODE.  Tools are:
-  Ba: Bambu, FM: Flames, FR: FLAIR, IQ: IsoQuant, IT: IsoTools, IB: Iso_IB,
-  Ly: LyRic, Ma: Mandalorion, TL: TALON-LAPA, Sp: Spectra, ST: StringTie2.
+
+%%%
+% stray
+%%%
+
+\inclimg{challenge1_src/generated/sirv-cover-CapTrap_PacBio.pdf}{@Supplementary Fig. 4202}{
+  % was: Extended Data Fig. 42b, Supplementary Fig. 4202.
+  \unused{
+    Positional coverage of SIRV transcript sequences by long reads in the CapTrap_PacBio.
+    }
+}
+\inclimg{challenge1_src/generated/sirv-cover-CapTrap_ONT.pdf}{@Supplementary Fig. 4203}{
+  % was: Extended Data Fig. 42d., Supplementary Fig. 4203.
+  \unused{
+    Positional coverage of SIRV transcript sequences by long reads in the CapTrap_ONT.
+    }
+}
+\inclimg{challenge1_src/generated/sirv-cover-R2C2_ONT.pdf}{@Supplementary Fig. 4204}{
+  % was: Extended Data Fig. 42e., Extended Data Fig. 4204.
+  \unused{
+    Positional coverage of SIRV transcript sequences by long reads in the R2C2_ONT sample.
+  }
+}
+\inclimg{challenge1_src/generated/sirv-cover-dRNA_ONT.pdf}{@Supplementary Fig. 4205}{
+  % was: Supplementary Fig. 4205.
+  \unused{
+    Positional coverage of SIRV transcript sequences by long reads in the dRNA_ONT sample.
+  }
+}
+\inclimg{validation_src/Extended_Data_Fig69_transcript_lengths_by_validation_status.pdf}{@Supplementary Fig. 5000}{
+  % was: Extended Data Fig. 69.
+  \unused{
+  The distribution of lengths corresponding to the target
+  transcript isoform across the entire validation experiment (including
+  GENCODE, Platform, and Consistency groups), broken down by their validation
+  status.
+  }
+}
+\inclgen{challenge1_src/generated/Extended_Fig._25_biotype-per-pipeline.pdf}{@Supplementary Fig. 5001}{
+  % was: Extended Data Fig. 25.
+  \unused{
+    Biotypes per pipeline. a) WTC11, c) H1-mix, c) Mouse ES.
+  }
 }
 
 \end{document}

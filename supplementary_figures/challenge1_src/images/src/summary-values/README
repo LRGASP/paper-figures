@@ -1,0 +1,15 @@
+
+Summary figures for supplement
+
+Two of these are used in main figures;
+  main_figures/challenge1_src/
+      summary_figure.value.cDNA-ONT.pdf
+      summary_figure.value.cDNA-ONT.svg
+      summary_figure.value.cDNA-PacBio.pdf
+      summary_figure.value.cDNA-PacBio.svg
+
+
+The combined source for all are here:
+      summary_challenge1_metrics.pdf
+
+Only the value graphs are used, not the Top ones. 

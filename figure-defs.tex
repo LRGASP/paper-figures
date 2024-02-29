@@ -21,6 +21,15 @@
   labelformat=empty,
   labelsep=none
 }
+
+\def\nocaptiontrue{}
+\newif\ifnocaption
+\ifdefined\nocaptiontrue
+  \nocaptiontrue
+\else
+  \nocaptionfalse
+\fi
+
 \renewcommand\captionfont{\fontsize{8pt}{10pt}\selectfont}
 
 % with size: \inclimgsz{pdf}{width}{label}{caption}
@@ -28,7 +37,9 @@
 \begin{figure}
   \centering
   \includegraphics[width=#2, keepaspectratio]{#1}
-  \caption{\textbf{#3.} {#4}}
+  \unless\ifnocaption
+    \caption{\textbf{#3.} {#4}}
+  \fi
 \end{figure}
 \clearpage
 \newpage
@@ -45,7 +56,9 @@
 \begin{figure}
   \centering
   \includegraphics[width=#3, trim={0 #2 0 0}, clip, keepaspectratio]{#1}
-  \caption{\textbf{#4.} {#5}}
+  \unless\ifnocaption
+     \caption{\textbf{#4.} {#5}}
+   \fi
 \end{figure}
 \clearpage
 \newpage

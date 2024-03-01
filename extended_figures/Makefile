@@ -33,7 +33,7 @@ ${splitdir}/pdf/Extended_Data_Fig%.pdf: ${NOCAP_DOCS_PDF}
 
 %.no-captions.pdf: %.tex ../figure-rules.mk ../figure-defs.tex ${DEPENDS}
 	@mkdir -p ${tmpDir}
-	pdflatex ${latexopts} -jobname $*.no-captions.tmp "\\nonstopmode\\def\\nocaptiontrue{}\\input $<" </dev/null
+	pdflatex ${latexopts} -jobname $*.no-captions.tmp "\\nonstopmode\\def\\disablecaptions{}\\input $<" </dev/null
 	mv -f ${tmpDir}/$*.no-captions.tmp.pdf $@
 
 clean::

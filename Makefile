@@ -15,4 +15,4 @@ realclean: ${subdirs:%=%_realclean}
 
 
 sync:
-	rsync -v -au --delete ./ '/Users/markd/Google Drive/Shared drives/Long-read RGASP/NatMethods_RegisteredReport/Stage_2_resubmission/paper-figures'
+	rsync -v -au --delete ./ '/Users/markd/Library/CloudStorage/GoogleDrive-markd@ucsc.edu/Shared drives/Long-read RGASP/NatMethods_RegisteredReport/Stage_2_resubmission/paper-figures'
